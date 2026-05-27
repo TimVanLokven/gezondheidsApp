@@ -1,0 +1,1 @@
+const express = require('express'); const app = express(); const PORT = 3000; app.get('/', (req, res) => { res.send('<h1>Mijn Gezondheids-App werkt!</h1>'); }); app.listen(PORT, () => { console.log(`Server draait op http://localhost:${PORT}`); });
